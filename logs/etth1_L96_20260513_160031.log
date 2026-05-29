@@ -1,0 +1,13 @@
+====== train=ETTh1.csv test=ETTh1.csv L_in=96 L_out=96 ======
+Train CSV : /root/dataset/ETT-small/ETTh1.csv
+Test  CSV : /root/dataset/ETT-small/ETTh1.csv
+L_in=96  L_out=96  kernels=[5, 13, 25, 49, 97]  ridge=0.0001
+  train windows = 59143  (0.2s)
+  fit 1.2s
+  test  windows = 19495  (0.1s)
+
+===== RESULT =====
+  train=ETTh1.csv  test=ETTh1.csv  L_in=96  L_out=96
+  MSE = 0.3834
+  MAE = 0.3943
+

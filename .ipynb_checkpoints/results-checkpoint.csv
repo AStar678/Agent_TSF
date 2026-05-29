@@ -1,0 +1,47 @@
+timestamp,model,train_source,train,test,L_in,L_out,ridge,kernels,max_train,seed,train_windows,test_windows,MSE,MAE,viz
+2026-05-13 20:05:45,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm1.csv,720,96,0.0001,5 13 25 49 97,,0,231150,79975,0.663639,0.527309,viz/deepma_ETTm1_L720_H96.png
+2026-05-13 20:07:06,deepma,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,96,0.0001,5 13 25 49 97,,0,231150,19495,0.369736,0.405387,viz/deepma_ETTh1_L720_H96.png
+2026-05-13 20:07:41,deepma,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,192,0.0001,5 13 25 49 97,,0,183956,18823,0.400797,0.423249,viz/deepma_ETTh1_L720_H192.png
+2026-05-13 20:08:06,deepma,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,336,0.0001,5 13 25 49 97,,0,108262,17815,0.420134,0.437138,viz/deepma_ETTh1_L720_H336.png
+2026-05-13 20:08:23,deepma,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,720,0.0001,5 13 25 49 97,,0,52134,15127,0.449050,0.464037,viz/deepma_ETTh1_L720_H720.png
+2026-05-13 20:10:33,deepma,monash,monash[5],/root/dataset/ETT-small/ETTh2.csv,720,96,0.0001,5 13 25 49 97,,0,231150,19495,0.301951,0.362573,viz/deepma_ETTh2_L720_H96.png
+2026-05-13 20:11:09,deepma,monash,monash[5],/root/dataset/ETT-small/ETTh2.csv,720,192,0.0001,5 13 25 49 97,,0,183956,18823,0.347252,0.392760,viz/deepma_ETTh2_L720_H192.png
+2026-05-13 20:11:34,deepma,monash,monash[5],/root/dataset/ETT-small/ETTh2.csv,720,336,0.0001,5 13 25 49 97,,0,108262,17815,0.361612,0.406342,viz/deepma_ETTh2_L720_H336.png
+2026-05-13 20:11:52,deepma,monash,monash[5],/root/dataset/ETT-small/ETTh2.csv,720,720,0.0001,5 13 25 49 97,,0,52134,15127,0.395970,0.438231,viz/deepma_ETTh2_L720_H720.png
+2026-05-13 20:17:14,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,96,0.0001,,,0,231150,19495,0.367277,0.403234,viz/linear_ETTh1_L720_H96.png
+2026-05-13 20:17:27,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,192,0.0001,,,0,183956,18823,0.400498,0.422912,viz/linear_ETTh1_L720_H192.png
+2026-05-13 20:17:38,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,336,0.0001,,,0,108262,17815,0.423458,0.439532,viz/linear_ETTh1_L720_H336.png
+2026-05-13 20:17:47,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,720,0.0001,,,0,52134,15127,0.454540,0.468148,viz/linear_ETTh1_L720_H720.png
+2026-05-13 20:19:02,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm1.csv,720,96,0.0001,5 13 25 49 97,,0,246593,79975,0.715659,0.549722,viz/deepma_ETTm1_L720_H96.png
+2026-05-13 20:19:43,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm1.csv,720,192,0.0001,5 13 25 49 97,,0,200068,79303,0.720003,0.557015,viz/deepma_ETTm1_L720_H192.png
+2026-05-13 20:20:17,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm1.csv,720,336,0.0001,5 13 25 49 97,,0,125586,78295,0.714911,0.556838,viz/deepma_ETTm1_L720_H336.png
+2026-05-13 20:21:33,deepma,monash,monash[5],/root/dataset/weather/weather.csv,96,96,0.0001,5 13 25 49 97,,0,812956,219324,0.270076,0.288378,viz/deepma_weather_L96_H96.png
+2026-05-13 20:23:37,deepma,monash,monash[5],/root/dataset/weather/weather.csv,720,96,0.0001,5 13 25 49 97,,0,555272,219324,0.261835,0.305712,viz/deepma_weather_L720_H96.png
+2026-05-13 20:24:56,deepma,monash,monash[5],/root/dataset/weather/weather.csv,720,192,0.0001,5 13 25 49 97,,0,365757,217308,0.306219,0.334608,viz/deepma_weather_L720_H192.png
+2026-05-13 20:26:04,deepma,monash,monash[5],/root/dataset/weather/weather.csv,720,336,0.0001,5 13 25 49 97,,0,234405,214284,0.324099,0.344076,viz/deepma_weather_L720_H336.png
+2026-05-13 20:26:54,deepma,monash,monash[5],/root/dataset/weather/weather.csv,720,720,0.0001,5 13 25 49 97,,0,110905,206220,0.371174,0.379067,viz/deepma_weather_L720_H720.png
+2026-05-13 20:46:28,linear,csv,/root/dataset/ETT-small/ETTh2.csv,/root/dataset/ETT-small/ETTh1.csv,1024,96,0.0001,,,0,52647,19495,0.407436,0.433394,viz/linear_ETTh1_L1024_H96.png
+2026-05-13 20:46:33,linear,csv,/root/dataset/ETT-small/ETTh2.csv,/root/dataset/ETT-small/ETTh1.csv,1024,192,0.0001,,,0,51975,18823,0.425012,0.448862,viz/linear_ETTh1_L1024_H192.png
+2026-05-13 20:46:54,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,96,0.0001,,,0,231150,19495,0.367277,0.403234,viz/linear_ETTh1_L720_H96.png
+2026-05-13 20:54:22,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm1.csv,720,96,0.0001,5 13 25 49 97,,0,1144756,79975,0.663657,0.530900,viz/deepma_ETTm1_L720_H96.png
+2026-05-13 20:57:59,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm1.csv,720,192,0.0001,5 13 25 49 97,,0,1103678,79303,0.663582,0.535147,viz/deepma_ETTm1_L720_H192.png
+2026-05-13 21:02:20,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm1.csv,720,336,0.0001,5 13 25 49 97,,0,929844,78295,0.672900,0.540287,viz/deepma_ETTm1_L720_H336.png
+2026-05-13 21:05:10,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm1.csv,720,720,0.0001,5 13 25 49 97,,0,433910,75607,0.687740,0.556927,viz/deepma_ETTm1_L720_H720.png
+2026-05-13 21:15:51,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm2.csv,96,96,0.0001,5 13 25 49 97,,0,1067593,79975,0.226121,0.313785,viz/deepma_ETTm2_L96_H96.png
+2026-05-13 21:20:27,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm2.csv,720,96,0.0001,5 13 25 49 97,,0,1144756,79975,0.215993,0.306227,viz/deepma_ETTm2_L720_H96.png
+2026-05-13 21:24:07,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm2.csv,720,192,0.0001,5 13 25 49 97,,0,1103678,79303,0.265869,0.335433,viz/deepma_ETTm2_L720_H192.png
+2026-05-13 21:28:32,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm2.csv,720,336,0.0001,5 13 25 49 97,,0,929844,78295,0.312747,0.364457,viz/deepma_ETTm2_L720_H336.png
+2026-05-13 21:31:30,deepma,monash,monash[5],/root/dataset/ETT-small/ETTm2.csv,720,720,0.0001,5 13 25 49 97,,0,433910,75607,0.387184,0.411981,viz/deepma_ETTm2_L720_H720.png
+2026-05-13 21:33:46,linear,monash,monash[5],/root/dataset/ETT-small/ETTm2.csv,720,720,0.0001,,,0,433910,75607,0.387338,0.412214,viz/linear_ETTm2_L720_H720.png
+2026-05-14 10:53:13,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,96,0.0001,,,0.1,0,23109,19495,0.385251,0.418044,viz/linear_ETTh1_L720_H96.png
+2026-05-14 10:53:20,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,192,0.0001,,,0.1,0,18022,18823,0.433566,0.448706,viz/linear_ETTh1_L720_H192.png
+2026-05-14 10:53:27,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,336,0.0001,,,0.1,0,10917,17815,0.495534,0.488989,viz/linear_ETTh1_L720_H336.png
+2026-05-14 10:53:34,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,720,0.0001,,,0.1,0,4793,15127,0.627120,0.570518,viz/linear_ETTh1_L720_H720.png
+2026-05-14 10:54:03,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,96,0.0001,,,1.0,0,231150,19495,0.367277,0.403234,viz/linear_ETTh1_L720_H96.png
+2026-05-14 10:54:16,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,192,0.0001,,,1.0,0,183956,18823,0.400498,0.422912,viz/linear_ETTh1_L720_H192.png
+2026-05-14 10:54:27,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,336,0.0001,,,1.0,0,108262,17815,0.423458,0.439532,viz/linear_ETTh1_L720_H336.png
+2026-05-14 10:54:36,linear,monash,monash[5],/root/dataset/ETT-small/ETTh1.csv,720,720,0.0001,,,1.0,0,52134,15127,0.454540,0.468148,viz/linear_ETTh1_L720_H720.png
+2026-05-14 11:07:21,deepma,monash,monash[2],/root/dataset/traffic/traffic.csv,96,96,0.0001,5 13 25 49 97,500000,1.0,0,17576,2942006,0.799133,0.499343,viz/deepma_traffic_L96_H96.png
+2026-05-14 11:08:40,deepma,monash,monash[2],/root/dataset/traffic/traffic.csv,96,192,0.0001,5 13 25 49 97,500000,1.0,0,13181,2859254,0.714261,0.458833,viz/deepma_traffic_L96_H192.png
+2026-05-14 11:10:31,deepma,monash,monash[2],/root/dataset/traffic/traffic.csv,96,336,0.0001,5 13 25 49 97,500000,1.0,0,9988,2735126,0.696938,0.427792,viz/deepma_traffic_L96_H336.png
+2026-05-14 11:13:35,deepma,monash,monash[2],/root/dataset/traffic/traffic.csv,96,720,0.0001,5 13 25 49 97,500000,1.0,0,7223,2404118,0.700155,0.419642,viz/deepma_traffic_L96_H720.png

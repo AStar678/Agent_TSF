@@ -1,0 +1,26 @@
+====== train=national_illness.csv test=national_illness.csv L_in=96 L_out=96 ======
+Train CSV : /root/dataset/illness/national_illness.csv
+Test  CSV : /root/dataset/illness/national_illness.csv
+L_in=96  L_out=96  kernels=[5, 13, 25, 49, 97]  ridge=0.0001
+  train windows = 3395  (0.0s)
+  fit 0.1s
+  test  windows = 686  (0.0s)
+
+===== RESULT =====
+  train=national_illness.csv  test=national_illness.csv  L_in=96  L_out=96
+  MSE = 2.8349
+  MAE = 1.2184
+
+====== train=national_illness.csv test=national_illness.csv L_in=96 L_out=192 ======
+Train CSV : /root/dataset/illness/national_illness.csv
+Test  CSV : /root/dataset/illness/national_illness.csv
+L_in=96  L_out=192  kernels=[5, 13, 25, 49, 97]  ridge=0.0001
+  train windows = 2723  (0.0s)
+  fit 0.1s
+  test  windows = 14  (0.0s)
+
+===== RESULT =====
+  train=national_illness.csv  test=national_illness.csv  L_in=96  L_out=192
+  MSE = 4.1821
+  MAE = 1.4477
+
