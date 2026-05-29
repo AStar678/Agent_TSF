@@ -165,6 +165,17 @@ if __name__ == '__main__':
     parser.add_argument('--top_p', type=float, default=0.5, help='Dynamic Routing in MoE')
     parser.add_argument('--pos', type=int, choices=[0, 1], default=1, help='Positional Embedding. Set pos to 0 or 1')
 
+    # Monash transfer
+    parser.add_argument('--monash_preset', type=str, default='etth_like',
+                        choices=['default', 'etth_like', 'all'],
+                        help='Monash file preset for monash_transfer task')
+    parser.add_argument('--monash_files', type=str, nargs='+', default=None,
+                        help='Explicit list of Monash TSF files to use')
+    parser.add_argument('--monash_max_per_series', type=int, default=200,
+                        help='Max windows per series for Monash training')
+    parser.add_argument('--monash_val_ratio', type=float, default=0.1,
+                        help='Fraction of Monash windows used for validation')
+
     args = parser.parse_args()
     if torch.cuda.is_available() and args.use_gpu:
         args.device = torch.device('cuda:{}'.format(args.gpu))
@@ -204,6 +215,9 @@ if __name__ == '__main__':
     elif args.task_name == 'zero_shot_forecast':
         from exp.exp_zero_shot_forecasting import Exp_Zero_Shot_Forecast
         Exp = Exp_Zero_Shot_Forecast
+    elif args.task_name == 'monash_transfer':
+        from exp.exp_monash_transfer import Exp_Monash_Transfer
+        Exp = Exp_Monash_Transfer
     else:
         from exp.exp_long_term_forecasting import Exp_Long_Term_Forecast
         Exp = Exp_Long_Term_Forecast
